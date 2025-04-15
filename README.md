@@ -7,8 +7,7 @@
 The Stint Time Calculator is designed to help sim racers to accurately calculate stint durations based on key input parameters. This tool is particularly useful in fields where precise time calculations are necessary.
 
 Development Methodology
-- The development followed the Agile approach, ensuring continuous iterations and improvements.
-- Agile was chosen over Waterfall due to its flexibility, allowing adjustments based on user feedback.
+- The development followed the Waterfall approach, ensuring the software is in good quality and without bugs. 
 
 Target Users & Applications
 - Engineers tracking operational runtimes.
@@ -18,7 +17,7 @@ Target Users & Applications
 3. Software Development Plan
    Development Process
 - Planning: Defining project requirements and goals.
-- Design: Creating the UI/UX wireframes.
+- Design: Creating the user interface.
 - Implementation: Coding and integrating the core algorithms.
 - Testing: Validating accuracy and performance.
 - Deployment: Publishing the tool for user access.
@@ -44,8 +43,12 @@ Future Plans
 4. Functional Overview
    Input Parameters
 - Start Time
-- End Time
-- Lap Count (if applicable)
+- Duration
+- Lap Time
+- Driver slots
+- Fuel tank volume
+- Refueling speed
+- Tyre change time
 
 Processing Logic
 - Computes total stint duration.
