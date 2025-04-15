@@ -17,11 +17,11 @@ Target Users & Applications
 
 3. Software Development Plan
    Development Process
-1. Planning: Defining project requirements and goals.
-2. Design: Creating the UI/UX wireframes.
-3. Implementation: Coding and integrating the core algorithms.
-4. Testing: Validating accuracy and performance.
-5. Deployment: Publishing the tool for user access.
+- Planning: Defining project requirements and goals.
+- Design: Creating the UI/UX wireframes.
+- Implementation: Coding and integrating the core algorithms.
+- Testing: Validating accuracy and performance.
+- Deployment: Publishing the tool for user access.
 
 Team Members
 *(Include details on roles, responsibilities, and contributions.)*
