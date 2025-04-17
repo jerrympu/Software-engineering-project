@@ -1,9 +1,9 @@
 # Stint Time Calculator 
 
-1. Graphical Abstract
+# 1. Graphical Abstract
 
 
-2. Purpose of the Software
+# 2. Purpose of the Software
 The Stint Time Calculator is designed to help sim racers to accurately calculate stint durations based on key input parameters. This tool is particularly useful in fields where precise time calculations are necessary.
 
 Development Methodology
@@ -14,7 +14,7 @@ Target Users & Applications
 - Athletes and sports teams analyzing performance splits.
 - Managers overseeing timed work shifts.
 
-3. Software Development Plan
+# 3. Software Development Plan
    Development Process
 - Planning: Defining project requirements and goals.
 - Design: Creating the user interface.
@@ -39,6 +39,8 @@ Future Plans
 - Adding AI-powered predictive analytics.
 - Enhancing mobile compatibility.
 - Expanding to cloud-based usage.
+
+------------------------------------------------
 
 4. Functional Overview
    Input Parameters
