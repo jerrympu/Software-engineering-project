@@ -2,6 +2,7 @@
 
 ## 1. Graphical Abstract
 (photo of the UI)
+Demo Video: (link here)
 
 ## 2. Purpose of the Software
 The Stint Time Calculator is designed to accurately calculate stint durations for endurance racing. Accurate stint information is critical for drivers and teams to manage race strategies effectively. The software requires user input to calculate stint information precisely and outputs a detailed time sheet with all essential information.
