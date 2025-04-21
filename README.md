@@ -1,73 +1,93 @@
-# Stint Time Calculator 
+# Stint Time Calculator Documentation
 
 ## 1. Graphical Abstract
+(photo of the UI)
 
+## 2. Purpose of the Software
+The Stint Time Calculator is designed to accurately calculate stint durations for endurance racing. Accurate stint information is critical for drivers and teams to manage race strategies effectively. The software requires user input to calculate stint information precisely and outputs a detailed time sheet with all essential information.
 
-## 2. Purpose of the Software 
-The Stint Time Calculator is designed to accurately calculate stint durations. For endurance racing, it is very critical to have an accurate and precise stint time and stint information for drivers and the team. The software asks user to input the required data so that the software is able to precisely calculate the stint information. User also required to place a driver in each time slot. After, the information are outputted on a time sheet with all the essential information in it. 
+### Development Method
+The development followed the Waterfall approach.
 
-### Development Methodology
-- The development followed the Waterfall approach, ensuring the software is in good quality and without bugs. 
+### Reason
+1. Clarity and Structure:
+The Waterfall model provides a clear and structured approach to software development. Each phase has specific deliverables and milestones, making it easier to manage and track progress.
+
+2. Defined Requirements:
+In the early stages of the project, the requirements were well-defined and unlikely to change significantly. The Waterfall approach is ideal for projects with stable requirements, as it allows for thorough planning and design before implementation begins.
+
+3. Ease of Management:
+The sequential nature of the Waterfall model simplifies project management. Each phase must be completed before the next begins, reducing the complexity of managing overlapping tasks and dependencies.
+
+4. Quality Assurance:
+By conducting thorough testing after the implementation phase, the Waterfall model ensures that the software is rigorously validated before deployment. This helps to identify and resolve issues early, resulting in a more reliable and stable product.
 
 ### Target Users & Applications
-- Engineers tracking operational runtimes.
-- Drivers in endurance racing
-- Teams analyzing performance splits.
-- Simracers 
+- **Engineers & drivers**: Planning the best strategy for drivers with changing conditions for and during the race.
+- **Simracers**: Enhancing virtual racing strategies.
 
 ## 3. Software Development Plan
 ### Development Process
-- Specification: Defining project requirements and goals.
-- Design: Creating the user interface.
-- Implementation: Coding and integrating the core algorithms.
-- Testing: Validating accuracy and performance of the software.
-- Enhancement: Make updates to the software.
-- Deployment: Publishing the tool for user access.
+1. **Specification**: Defining project requirements and goals.
+2. **Design**: Creating the user interface.
+3. **Implementation**: Coding and integrating the core algorithms.
+4. **Testing**: Validating the accuracy and performance of the software.
+5. **Enhancement**: Making updates to the software based on feedback.
+6. **Deployment**: Publishing the tool for user access.
 
 ### Team Members
-- Designer: Responsible for designing the UI of the software
-- Developer 1: 
-- Developer 2: 
-- Developer 3: 
-- Manager: Manage the whole process of software devlopement
+- **Designer**: Responsible for designing the UI of the software.
+- **Developer 1**: Focuses on backend development.
+- **Developer 2**: Handles frontend development.
+- **Developer 3**: Integrates algorithms and ensures functionality.
+- **Manager**: Manages the entire software development process.
 
 ### Schedule
-- Month 1: Specification & Design
-- Month 2: Coding & Testing
-- Month 3: Enhancement & Deployment
+- **Month 1**: Specification & Design
+  - Define requirements and goals.
+  - Design the user interface.
+- **Month 2-3**: Coding & Testing
+  - Implement core algorithms.
+  - Conduct unit and integration testing.
+- **Month 4**: Enhancement & Deployment
+  - Make necessary updates.
+  - Deploy the software for user access.
 
 ### Algorithm
 **1. Input Data Collection:**
-  * Collect user inputs:
-    * Start time of the race
-    * Duration of the race
-    * Fuel tank capacity
-    * Fuel consumption rate
-    * Pitlane duration
-    * Tyre change time
-    * Driver swap time
-    * Refuel speed
-    * Drivers & their corresponding lap times
-    * Tyre choice
+  - Collect user inputs:
+    - Start time of the race
+    - Duration of the race
+    - Fuel tank capacity
+    - Fuel consumption rate
+    - Pitlane duration
+    - Tyre change time
+    - Driver swap time
+    - Refuel speed
+    - Drivers & their corresponding lap times
+    - Tyre choice
 
 **2. Initialization:**
-  * Initialize variables for tracking time, fuel, and stints.
-    
+  - Initialize variables for tracking time, fuel, and stints.
+
 **3. Stint Calculation:**
-  * Calculate the number of laps each driver can complete based on fuel consumption and tank capacity.
-  * Determine the start and end time for each stint.
-  * Calculate the fuel required for each stint.
-  * Calculate the pitstop duration based on tyre change time, driver swap time, and refuel speed.
-    
+  - Calculate the number of laps each driver can complete based on fuel consumption and tank capacity.
+  - Determine the start and end time for each stint.
+  - Calculate the fuel required for each stint.
+  - Calculate the pitstop duration based on tyre change time, driver swap time, and refuel speed.
+
 **4. Output Generation:**
-  * Generate a time sheet with:
-    * Start & end time for each stint
-    * Fuel to be added for each stint
-    * Pitstop duration
+  - Generate a time sheet with:
+    - Start & end time for each stint
+    - Fuel to be added for each stint
+    - Pitstop duration
+    - Allow user to assign drivers to each time slot
 
 ### Current Status
-The software is in implementation stage. The basic coding and algorithm of the software are finished. It is currently runnable in a CLI. We aim to convert the software to be usable on a GUI in the upcoming week. 
+The software is currently in the coding & testing stage. The basic coding and algorithm are complete, and it is currently runnable in a CLI. The next step is to convert the software to a GUI within the upcoming week.
 
 ### Future Plans
-- Adding AI-powered predictive analytics to return the best strategy option.
-- Enhancing mobile compatibility to be usable on a phone.
+- **Cloud implementation**: Allow multiple users to work on one schedule at the same time.
+- **AI-Powered Predictive Analytics**: Integrate AI to suggest optimal strategies based on historical data and real-time inputs.
+- **Mobile Compatibility**: Enhance the software to be usable on mobile devices, providing flexibility for users on the go.
+
