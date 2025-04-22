@@ -11,16 +11,16 @@ The Stint Time Calculator is designed to accurately calculate stint durations fo
 The development followed the Waterfall approach.
 
 ### Reason
-1. Clarity and Structure:
+- Clarity and Structure:
 The Waterfall model provides a clear and structured approach to software development. Each phase has specific deliverables and milestones, making it easier to manage and track progress.
 
-2. Defined Requirements:
+- Defined Requirements:
 In the early stages of the project, the requirements were well-defined and unlikely to change significantly. The Waterfall approach is ideal for projects with stable requirements, as it allows for thorough planning and design before implementation begins.
 
-3. Ease of Management:
+- Ease of Management:
 The sequential nature of the Waterfall model simplifies project management. Each phase must be completed before the next begins, reducing the complexity of managing overlapping tasks and dependencies.
 
-4. Quality Assurance:
+- Quality Assurance:
 By conducting thorough testing after the implementation phase, the Waterfall model ensures that the software is rigorously validated before deployment. This helps to identify and resolve issues early, resulting in a more reliable and stable product.
 
 ### Target Users & Applications
@@ -63,19 +63,17 @@ By conducting thorough testing after the implementation phase, the Waterfall mod
     - Fuel consumption rate
     - Pitlane duration
     - Tyre change time
-    - Driver swap time
     - Refuel speed
-    - Drivers & their corresponding lap times
-    - Tyre choice
+    - Lap times
 
 **2. Initialization:**
   - Initialize variables for tracking time, fuel, and stints.
 
 **3. Stint Calculation:**
-  - Calculate the number of laps each driver can complete based on fuel consumption and tank capacity.
+  - Calculate the number of laps driver can complete based on fuel consumption and tank capacity.
   - Determine the start and end time for each stint.
   - Calculate the fuel required for each stint.
-  - Calculate the pitstop duration based on tyre change time, driver swap time, and refuel speed.
+  - Calculate the pitstop duration based on tyre change time and refuel speed.
 
 **4. Output Generation:**
   - Generate a time sheet with:
