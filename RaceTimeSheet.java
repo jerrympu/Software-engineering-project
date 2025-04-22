@@ -17,7 +17,7 @@ public class RaceTimeSheet {
         int pitlaneDuration = scanner.nextInt();
         System.out.print("Enter tyre change time (seconds): ");
         int tyreChangeTime = scanner.nextInt();
-        System.out.print("Enter refuel speed (liters per second): ");
+        System.out.print("Enter refuel time for one liter of fuel(seconds): ");
         double refuelSpeed = scanner.nextDouble();
         System.out.print("Enter average lap time (MM:SS): ");
         String averageLapTime = scanner.next();
