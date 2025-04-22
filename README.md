@@ -13,6 +13,7 @@
 <img width="956" alt="螢幕截圖 2025-04-22 19 45 37" src="https://github.com/user-attachments/assets/98820ee0-3559-4d6b-8b74-407789244caf" /><br>
 
 - Demo Video: <a href="https://www.youtube.com/watch?v=pkyW89ie8dM" target="_blank">https://www.youtube.com/watch?v=pkyW89ie8dM</a>
+
 ## 2. Purpose of the Software
 The Stint Time Calculator is designed to accurately calculate stint durations for endurance racing. Accurate stint information is critical for drivers and teams to manage race strategies effectively. The software requires user input to calculate stint information precisely and outputs a detailed time sheet with all essential information.
 
@@ -46,7 +47,7 @@ By conducting thorough testing after the implementation phase, the Waterfall mod
 6. **Deployment**: Publishing the tool for user access.
 
 ### Team Members
-- **Designer**: Responsible for designing the UI of the software.
+- **Designer**: Responsible for designing the interface of the software.
 - **Developer 1**: Focuses on backend development.
 - **Developer 2**: Handles frontend development.
 - **Developer 3**: Integrates algorithms and ensures functionality.
