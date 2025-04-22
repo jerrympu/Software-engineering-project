@@ -1,8 +1,18 @@
 # Stint Time Calculator Documentation
 
 ## 1. Graphical Abstract
-(photo of the UI)
-Demo Video: (link here)
+- Code file: RaceTimeSheet.java
+  
+- Progamming language: Java
+  
+- Example of the software:
+  * *The first part asks user to input data.*
+  * *The second part returns the time sheet to the user.*
+  * *The third part asks user to assign a driver to each time slot.*
+  * *The fourth part returns the time sheet with assigned driver to the user.*
+<img width="956" alt="螢幕截圖 2025-04-22 19 45 37" src="https://github.com/user-attachments/assets/98820ee0-3559-4d6b-8b74-407789244caf" /><br>
+
+- Demo Video: (link here)
 
 ## 2. Purpose of the Software
 The Stint Time Calculator is designed to accurately calculate stint durations for endurance racing. Accurate stint information is critical for drivers and teams to manage race strategies effectively. The software requires user input to calculate stint information precisely and outputs a detailed time sheet with all essential information.
